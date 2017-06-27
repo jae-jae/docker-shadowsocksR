@@ -6,4 +6,4 @@ RUN bash /root/shadowsocksR.sh 2>&1 | tee /root/shadowsocksR.log
 
 EXPOSE 8388
 
-CMD /etc/init.d/shadowsocks start
+CMD ["/usr/local/shadowsocks/server.py","-c","/etc/shadowsocks.json"]
