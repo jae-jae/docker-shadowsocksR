@@ -19,7 +19,7 @@ config path:`/etc/shadowsocks.json`
 "local_port":1080,
 "port_password":{
     "8989":"password1",
-    "8990":"password2"，
+    "8990":"password2",
     "8991":"password3"
 },
 "timeout":300,
