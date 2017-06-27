@@ -35,7 +35,7 @@ config path:`/etc/shadowsocks.json`
 }
 ```
 
-After modifying the configuration file, restart the service container
+After modifying the configuration file, restart the docker container
 
 ```
 docker restart ssr
