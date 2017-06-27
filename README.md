@@ -34,3 +34,9 @@ config path:`/etc/shadowsocks.json`
 "workers": 1
 }
 ```
+
+After modifying the configuration file, restart the service container
+
+```
+docker restart ssr
+```
