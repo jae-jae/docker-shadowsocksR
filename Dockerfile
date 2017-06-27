@@ -4,5 +4,6 @@ ADD shadowsocksR.sh /root
 USER root
 RUN bash /root/shadowsocksR.sh 2>&1 | tee /root/shadowsocksR.log
 
+EXPOSE 8388
 
 
